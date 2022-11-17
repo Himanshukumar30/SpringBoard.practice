@@ -12,6 +12,8 @@ form.addEventListener("submit", function (e) {
   const removeBtn = document.createElement("button");
   removeBtn.innerText = "x";
   newEl.innerText = input.value;
+
+  // Save to localStorage
   toDoList.push({ todo: newEl.innerText, isCompleted: false });
   // console.log(toDoList);
   localStorage.setItem("ToDos", JSON.stringify(toDoList));
@@ -19,20 +21,21 @@ form.addEventListener("submit", function (e) {
   input.value = "";
   // console.log(newLi);
   list.appendChild(newEl);
+
   // Remove ToDo and mark it as complete
   list.addEventListener("click", function (e) {
     // console.log(e.target.tagName);
     if (e.target.tagName === "BUTTON") {
+      // Update status to localStorage
       localStorage.setItem("ToDos", JSON.stringify(toDoList));
       e.target.parentElement.remove();
     } else if (e.target.tagName === "LI") {
       // console.log("You Clicked LI");
       e.target.classList.toggle("completed");
+      // Update status to localStorage
       toDoList.push({ todo: newEl.innerText, isCompleted: true });
       localStorage.clear();
       localStorage.setItem("ToDos", JSON.stringify(toDoList));
     }
   });
 });
-
-// Save to localStorage
