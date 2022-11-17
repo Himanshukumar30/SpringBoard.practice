@@ -1,0 +1,15 @@
+li {
+  font-family: montserrat;
+  list-style-type: none;
+  font-weight: 400;
+  padding: 0 5%;
+}
+
+button {
+  padding: 1%;
+  margin: 2%;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
