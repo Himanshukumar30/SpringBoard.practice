@@ -22,5 +22,5 @@ it("should handle higher amounts", () => {
     years: 10,
     rate: 5.67,
   };
-  expect(calculateMonthlyPayment(values)).toEqual("");
+  expect(calculateMonthlyPayment(values)).toEqual("273426.42");
 });
