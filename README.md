@@ -1,7 +1,7 @@
 # JS-Practice
 
 ## Description
-This folder is part of my JS Practice exercises designed by SpringBoard
+This folder is part of my Practice exercises designed by SpringBoard
 
 ## Getting Started
 
