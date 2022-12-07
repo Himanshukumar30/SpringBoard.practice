@@ -6,7 +6,7 @@ $("form").on("submit", function (e) {
   let newEntry = { movieName, movieRating };
   let htmlToAdd = createNewEntry(newEntry);
   $("#movie-container").append(htmlToAdd);
-  $("#new-movie-form").trigger("reset");
+  $("form").trigger("reset");
 });
 
 // Delete entry when clicked on delete button corresponding to movie name
