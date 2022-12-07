@@ -1,0 +1,48 @@
+/* Global styling */
+
+p {
+  margin: 0.4%;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #edf5fc;
+}
+
+/* Input area styling */
+input {
+  display: inline-block;
+  padding: 1%;
+  margin: 2%;
+}
+
+.btn {
+  font-size: 19px;
+  color: blanchedalmond;
+  background-color: green;
+  border-radius: 7%;
+}
+
+/* Styling for new entries */
+.entry {
+  width: 80%;
+  display: block;
+  padding: 1%;
+  margin: 4%;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #afc1d6;
+  border-radius: 2%;
+  box-shadow: #b4cce7;
+}
+
+.delete {
+  font-size: 19px;
+  color: blanchedalmond;
+  background-color: firebrick;
+  border-radius: 7%;
+}
