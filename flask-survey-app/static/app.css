@@ -12,8 +12,25 @@ form {
 }
 
 h1,
-h2 {
+h2,
+p {
   margin: 2% 2%;
   padding: 1%;
   background-color: antiquewhite;
+}
+
+form p {
+  font-size: 26px;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(1, 1, 40);
+  color: aliceblue;
+}
+
+button:hover {
+  font-size: 22px;
+  background-color: rgb(247, 242, 242);
+  color: rgb(22, 2, 2);
 }

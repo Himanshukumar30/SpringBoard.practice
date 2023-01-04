@@ -3,7 +3,7 @@
 {% block data %}
 <form action="/answer" method="POST">
 <h1>Customer Satisfaction Survey</h1>
-<h2>{{ question.question }}</h2>
+<h1>{{ question.question }}</h1>
   {% for choice in question.choices %}
   <p><input type="radio" name="answer" value="{{ choice }}"> {{ choice }}</p>
   {% endfor %}

@@ -1,8 +1,8 @@
-{% extends 'base.html' %} {% block title %}Satisfaction Survey{% endblock %}
-{%block data %}
+{% extends 'base.html' %} {% block data %}
+
 <form action="/start" method="POST">
-  <h1>{{title}}</h1>
-  <h2>{{instructions}}</h2>
+  <h1>{{ satisfaction_survey.title }}</h1>
+  <p>{{ satisfaction_survey.instructions }}</p>
   <button>Start!</button>
 </form>
 {% endblock %}
