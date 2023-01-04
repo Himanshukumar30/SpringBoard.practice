@@ -1,0 +1,19 @@
+body {
+  background-image: url("https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  text-align: center;
+  margin: 5% 20%;
+  padding: 10%;
+  background-color: antiquewhite;
+}
+
+h1,
+h2 {
+  margin: 2% 2%;
+  padding: 1%;
+  background-color: antiquewhite;
+}
